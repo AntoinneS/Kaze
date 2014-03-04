@@ -1,0 +1,54 @@
+
+Error: Cannot find module './hangman.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\app.js:439:18)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+Error: Cannot find module './Stuff/chatbot.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\app.js:440:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+Error: write EINVAL - cannot write to IPC channel.
+    at errnoException (child_process.js:988:11)
+    at ChildProcess.target.send (child_process.js:455:16)
+    at Worker.send (cluster.js:406:21)
+    at sendInternalMessage (cluster.js:399:10)
+    at handleResponse (cluster.js:177:5)
+    at respond (cluster.js:192:5)
+    at Object.messageHandler.queryServer (cluster.js:247:5)
+    at handleMessage (cluster.js:197:32)
+    at ChildProcess.EventEmitter.emit (events.js:117:20)
+    at handleMessage (child_process.js:318:10)
+
+TypeError: Cannot call method 'add' of null
+    at canTalk (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\command-parser.js:344:12)
+    at Object.context.canTalk (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\command-parser.js:197:12)
+    at Object.exports.commands.msg (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\commands.js:118:17)
+    at Object.exports.parse (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\command-parser.js:207:31)
+    at ChatRoom.chat (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\rooms.js:1479:27)
+    at User.chat (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\users.js:1260:9)
+    at Object.socketReceive (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\Antoinne\Documents\GitHub\Pokemon-Showdown\sockets.js:46:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+user = rhexxsarceus
+ip = 99.109.97.127
+roomid = 
+message = |/pm darknessreigns, YOU SEE THIS COLOR
