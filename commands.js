@@ -2174,8 +2174,8 @@ join: function(target, room, user, connection) {
                 }
                 if (target.toLowerCase() == "lobby") {
                         return connection.sendTo('lobby','|html|<div class="infobox" style="border-color:blue"><center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lugia.gif"><br><br>' +
-						'<b><u>Welcome to the Rain Server!</u></b><br />' + 
-						'<center><img src="http://officialrainleague.weebly.com/uploads/2/4/8/7/24870989/129111.png?298"><br /><br />' +
+						'<b><u>Welcome to the KaZE Server!</u></b><br />' + 
+						'<center><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYqV0XLcgkFX9tgYgfGZO2bjDrGBx2-MOVZuAlHXdozV6S1-f2"><br /><br />' +
                         'MAKE SURE YOU TRY OUT OUR CUSTOM CLIENT. WHAT IS THIS? A COOLER LOOKING VERSION OF THIS PLACE!<a href="http://67.230.43.52:8000/testclient.html?~~67.230.43.52/">here</a>!<br /><br />' +
                         'For Information About Server, Please talk to an admin (~) but the admins are usually busy so please dont pm simple question you can ask in the chat <br /><br />' +
                         'We Are Ever Improving So State Suggestion And It Could Just Happen As Anything Is Possible Atm<br /><br />' +
