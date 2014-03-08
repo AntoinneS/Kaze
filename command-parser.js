@@ -326,14 +326,14 @@ global.today = new Date();
                         user.numMessages += 1;
                         if(user.numMessages == 17){
                         user.mute(room.id, 7*60*1000);
-                         room.add('|html|<font color="#FF00BF"><i><b> Rain Bot </b> has muted ' + user.name + ' for 7 minutes(flood).</i></font>');
+                         room.add('|html|<font color="#FF00BF"><i><b> KaZe Bot </b> has muted ' + user.name + ' for 7 minutes(flood).</i></font>');
                         user.o3omessagetime = today.getMinutes();
                         user.numMessages = 0;
                         return false
                         }
                                                 if(spam.words.indexOf(message)> -1){
                                                 user.mute(room.id, 60*60*1000, true);
-                                                 room.add('|html|<font color="#FF00BF"><i><b> Rain Bot </b> has muted ' + user.name + ' for 7 minutes(spamword).</i></font>');
+                                                 room.add('|html|<font color="#FF00BF"><i><b> KaZe Bot </b> has muted ' + user.name + ' for 7 minutes(spamword).</i></font>');
                                                 return false;
                                                 }
 				//caps
@@ -343,7 +343,7 @@ global.today = new Date();
 					if (message === message.toUpperCase() && message.length >= 6) {
 						room.add('|c|'+ user.name+'|'+message);
 						user.warnCounter+
-						room.add('|html|<font color="#FF00BF">'+user.name+' was warned by '+'<i><b> Rain Bot </b> '+'.' +  ' (caps)</i></font>');
+						room.add('|html|<font color="#FF00BF">'+user.name+' was warned by '+'<i><b> KaZe Bot </b> '+'.' +  ' (caps)</i></font>');
 						user.send('|c|~|/warn '+'caps');
 						return false;
 					}
