@@ -436,8 +436,8 @@ fs.readFile('./config/ipbans.txt', function (err, data) {
  * Rain Stuff
  *********************************************************/
 global.tour = require('./tour.js').tour();
-global.stuff = require('./Stuff/stuff.js').stuff();
-global.spam = require('./Stuff/spam.js').spam();
+global.stuff = require('./stuff/stuff.js').stuff();
+global.spam = require('./stuff/spam.js').spam();
 global.hangman = require('./hangman.js').hangman();
 
 try {
