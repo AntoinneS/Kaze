@@ -464,8 +464,6 @@ var cmds = {
                                 stuff = require('./stuff/stuff.js').stuff();
                                 CommandParser.uncacheTree('./stuff/spam.js');
                                 spam = require('./stuff/spam.js').spam();
-                                CommandParser.uncacheTree('./stuff/profile.js');
-                                global.profile = require('./stuff/profile.js').profile();
                                 CommandParser.uncacheTree('./hangman.js');
                                 global.hangman = require('./hangman.js').hangman();
                                 CommandParser.uncacheTree('./tour.js');
